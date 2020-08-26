@@ -1,7 +1,7 @@
 /*
  * @Author: zhanglin
  * @Date: 2020-08-20 23:34:22
- * @LastEditTime: 2020-08-26 10:58:18
+ * @LastEditTime: 2020-08-26 10:59:06
  * @LastEditors: zhanglin
  * @Description: 
  * @FilePath: /algorithm/second/sort.js
@@ -53,7 +53,6 @@ function quickSort(arr){
 
   const mid = parseInt(arr.length/2)
   const midValue = arr[mid]
-
   const leftArr = []
   const rightArr = []
   for(let i = 0;i<arr.length;i++){
