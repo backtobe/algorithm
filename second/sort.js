@@ -1,7 +1,7 @@
 /*
  * @Author: zhanglin
  * @Date: 2020-08-20 23:34:22
- * @LastEditTime: 2020-08-21 00:02:11
+ * @LastEditTime: 2020-08-26 10:26:05
  * @LastEditors: zhanglin
  * @Description: 
  * @FilePath: /algorithm/second/sort.js
@@ -24,7 +24,7 @@ function insertSort(arr){
   if(!arr || arr && arr.length<2) return arr
   let res = [arr[0]]
   for(let i = 1;i<arr.length;i++){
-    // 从前完后比
+    // 从前往后比
     // for(let j=0;j<res.length;j++){
     //   if(arr[i]<=res[j]){
     //     res.splice(j,0,arr[i])
