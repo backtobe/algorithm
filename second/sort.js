@@ -1,7 +1,7 @@
 /*
  * @Author: zhanglin
  * @Date: 2020-08-20 23:34:22
- * @LastEditTime: 2020-08-26 10:26:05
+ * @LastEditTime: 2020-08-26 10:58:18
  * @LastEditors: zhanglin
  * @Description: 
  * @FilePath: /algorithm/second/sort.js
@@ -65,5 +65,4 @@ function quickSort(arr){
     }
   }
   return [...quickSort(leftArr),midValue,...quickSort(rightArr)]
-
 }
